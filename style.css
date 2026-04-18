@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body {
+  text-align: center;
+  color: hsl(210, 10%, 33%);
+}
+
+.hero {
+  padding: 40px 20px;
+  background: url('images/bg-header-mobile.png') no-repeat center/cover;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+  margin: 15px 0;
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn {
+  padding: 12px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+.ios {
+  background: hsl(171, 66%, 44%);
+}
+
+.mac {
+  background: hsl(233, 100%, 69%);
+}
+
+/* FEATURES */
+.feature-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.feature-text {
+  text-align: center;
+}
+
+/* TOOLS */
+.tool-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px;
+}
+
+/* FOOTER */
+footer {
+  padding: 30px;
+  background: #f5f6f8;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+
+  .buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .feature-grid {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .feature-text {
+    text-align: left;
+  }
+
+  .tool-grid {
+    flex-direction: row;
+  }
+
+  .links {
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+  }
+}
