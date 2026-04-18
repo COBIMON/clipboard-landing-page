@@ -12,9 +12,6 @@ Users should be able to:
 - View the optimal layout depending on screen size
 - See hover states for all interactive elements
 
-### Screenshot
-
-(Add screenshot here)
 
 ### Links
 
@@ -43,5 +40,5 @@ Solution URL: https://github.com/COBIMON/clipboard-landing-page
 
 ## Author
 
-- Name: Your Name
-- Frontend Mentor: @yourusername
+- Name: OBI CHISOM
+- Frontend Mentor: @COBIMON
