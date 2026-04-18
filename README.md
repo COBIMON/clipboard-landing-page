@@ -18,8 +18,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (your deployed link)
-- Solution URL: (your repo link)
+- Live Site URL: https://dulcet-sherbet-2fb24b.netlify.app/  
+Solution URL: https://github.com/COBIMON/clipboard-landing-page
 
 ## My process
 
